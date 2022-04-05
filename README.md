@@ -18,10 +18,13 @@ If left to `false` the core will create its own character on ID 1 and not the
 multi characters plugin
 
 ---
-# Install DokusCore withing 10 minutes!
-Simply [Download](https://github.com/DokusCore/Server-Prebuild) the prebuild server that has the server and all its features <br>
-pre-Installed. Simply add your server artifacts and configure the cfg files, <br>
-inject the database and you're done!
+# Server Prebuild:
+If you do not want to build your own server you don't have to, we already did all   <br>
+the work for you! Download our [Prebuild](https://github.com/DokusCore/Server-Prebuild) server package and you will be setup  <br>
+within minutes. You also do not have to worry about dependencies or if the plugins <br>
+are started in the right order. Just insert your server artifacts, change the .cfg <br>
+and config files to your liking and off you go! For more information on how to <br>
+set up a DokusCore server, see the following video: [Installation video](https://www.youtube.com/watch?v=NlJFFRzWvDE) <br>
 
 ---
 # Plugin Information
