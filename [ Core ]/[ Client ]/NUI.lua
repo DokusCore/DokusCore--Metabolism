@@ -10,8 +10,6 @@ CreateThread(function()
   while not UserInGame() do Wait(1000) end
 
   while true do Wait(1000)
-    ShowCores(true)
-    -- Calculate farenheit is this setting is choosen.
     if (Low(Type) == 'f') then nTemp = (Temp * 1.8 + 32.0) end
     if (Low(Type) == 'c') then nTemp = Temp end
 

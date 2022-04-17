@@ -54,14 +54,13 @@ CreateThread(function() Wait(5000)
   if (_Modules.Metabolism) then
     while not FrameReady() do Wait(1000) end
     while not UserInGame() do Wait(1000) end
-    while true do Wait(1000)
+    while true do Wait(100)
       while Online do Wait(1)
         local PedID  = PedID()
         local Coords = GetCoords(PedID)
         Health = GetEntityHealth(PedID)
         Temp = GetTemperature(Coords)
         CalcTempDamage()
-        Wait(5000)
       end
     end
   end
@@ -78,7 +77,7 @@ CreateThread(function() Wait(5000)
       while Online do Wait(1000)
         if (Health <= 0) then
           TriggerEvent('DokusCore:Metabolism:Respawn')
-          return
+          Wait(5000)
         end
       end
     end
